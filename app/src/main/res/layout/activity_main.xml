@@ -19,7 +19,7 @@
             android:inputType="numberDecimal" android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toTopOf="@+id/edAlcool" app:layout_constraintTop_toBottomOf="@+id/edGasolina"
             app:layout_constraintVertical_bias="0.0"
-            android:text="@string/Alcool"/>
+            android:hint="@string/Alcool"/>
     <EditText
             android:layout_width="0dp"
             android:layout_height="41dp"
@@ -30,7 +30,7 @@
             app:layout_constraintTop_toTopOf="parent" android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.55"
             android:inputType="numberDecimal"
-            android:contentDescription="@string/Gasolina" android:text="@string/Gasolina"/>
+            android:contentDescription="@string/Gasolina" android:hint="@string/Gasolina"/>
     <Button
             android:text="Calcular"
             android:layout_width="0dp"
